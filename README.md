@@ -4,6 +4,6 @@ Create a bash for loop that extracts only the element name from each of the _.xm
 
 ```
 for filename in *.xml
-do head -n 1 $filename | cut -d '"' -f 2 >> el-names.txt
+    do head -n 1 $filename | cut -d '"' -f 2 >> el-names.txt
 done
 ```
