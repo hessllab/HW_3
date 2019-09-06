@@ -8,3 +8,4 @@ do
 done
 ```
 ### Output
+![Capture](Capture.PNG)
