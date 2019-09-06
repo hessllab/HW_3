@@ -8,7 +8,7 @@ Create a bash for loop that extracts only the element name from each of the _.xm
 cd GEOG693/data/data-shell/data/elements
 for filename in *.xml
 do
-cut -d '"' -f 2 $filename | head -n 1 >> el-names.txt
+    cut -d '"' -f 2 $filename | head -n 1 >> el-names.txt #reverse these two for faster processing time
 done
-sort el-names.txt # Sort the elements in alphabetic order. 
+sort el-names.txt # Sort the elements in alphabetic order. #nice addition.
 ```
